@@ -1,6 +1,4 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { actions } from './store';
-
 import './App.css';
 
 function App() {
@@ -8,13 +6,13 @@ function App() {
 	const dispatch = useDispatch()
 
 	const increment = () => {
-		dispatch(actions.increment());
+		dispatch({ type: 'INCREMENT' });
 	}
 
 	const decrement = () => {
-		dispatch(actions.decrement());
+		dispatch({ type: 'DECREMENT' });
 	}
-	
+
 	return (
 		<div>
 			<h1>Counter</h1>
