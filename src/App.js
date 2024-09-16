@@ -7,7 +7,7 @@ function App() {
              <div className="logoS">
                  <img src="#" alt="logo" />
                  <div className="fMenu" >
-                     <ul>
+                     <ul className="adminD">
                        <li><a href="#">Language </a></li>
                        <li><a href="#">Sign Up </a></li>
                        <li><a href="#">Log In </a></li>
