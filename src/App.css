@@ -55,11 +55,16 @@
 .menuM .menuI #homeB {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    
     gap: 20px;
+   
+}
+
+#homeB > p{
     background: #3399ff;
+    margin-left: 10px;
     padding: 5px 10px;
-    border-radius: 5px;
+    
 }
 
 .menuS {
