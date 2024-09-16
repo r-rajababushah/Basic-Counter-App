@@ -19,12 +19,14 @@
 
 
 .logoS img {
+    margin: 2px 5px;
     height: 35px;
     width: 35px;
 }
 
 .logoS .fMenu {
     display: flex;
+    flex-direction: row;
 }
 
 
