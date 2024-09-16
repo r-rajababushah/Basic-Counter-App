@@ -1,3 +1,4 @@
+import { Link, Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -24,10 +25,10 @@ function App() {
 
                         </span>
                         <span id="homeB">
-                            <p>Home</p>
-                            <p>●</p>
-                            <p>Hotels</p>
-                            <p>Restaurants</p>
+                            <p><Link to="">Home</Link></p>
+                            <p>Search</p>
+                            <p><Link to="/hotels">Hotels</Link></p>
+                            <p><Link to="/resturnats">Resturants</Link></p>
                         </span>
                     </div>
 
@@ -39,6 +40,10 @@ function App() {
                             <p>&#8595; &nbsp; Emergency Number </p>
                         </span>
                     </div>
+                </div>
+
+                <div className='homeMain'>
+                    <Outlet />
                 </div>
 
             </div>
