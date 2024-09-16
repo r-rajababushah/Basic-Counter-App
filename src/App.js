@@ -36,8 +36,8 @@ function App() {
                            <p>Emergency Number </p>
                        </span>
                    </div>
-                   </div>
-             </div>
+               </div>
+             
         </div>
 		</>
 	);
