@@ -55,7 +55,6 @@
 .menuM .menuI #homeB {
     display: flex;
     flex-direction: row;
-    
     gap: 20px;
    
 }
@@ -63,19 +62,19 @@
 #homeB > p{
     background: #3399ff;
     margin-left: 10px;
-    padding: 5px 10px;
-    
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 .menuS {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
 }
 
 .menuS p {
     margin-right: 5px;
     background: #3399ff;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
