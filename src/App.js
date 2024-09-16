@@ -5,7 +5,7 @@ function App() {
 		<>
         <div className="mycls">
              <div className="logoS">
-                 <img src="#" alt="logo" />
+                 <img src="/" alt="logo" />
                  <div className="fMenu" >
                      <ul className="adminD">
                        <li><a href="#">Language </a></li>
