@@ -1,0 +1,30 @@
+.footer {
+    background-color: #3399ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 80px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.reviewS p {
+    margin-left: 10px;
+    color: white;
+    font-size: large;
+}
+
+.helpS ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpS ul li {
+    color: white;
+    margin-right: 25px;
+    font-size: large;
+}
+

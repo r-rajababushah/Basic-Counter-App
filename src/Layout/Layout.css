@@ -1,0 +1,51 @@
+.NavHeader {
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.menuM {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.menuI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuI #homeB {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.menuI #homeB p {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #3399ff;
+    margin-right: 10px;
+    color: white;
+}
+
+.menuI #homeB p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuS span p {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #3399ff;
+    margin-right: 10px;
+}
