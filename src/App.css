@@ -58,6 +58,7 @@
     margin-left: 10px;
     gap: 10px;
     background: #3399ff;
+    padding: 5px 10px;
 }
 
 .menuS {
@@ -69,4 +70,5 @@
 .menuS p {
     margin-right: 5px;
     background: #3399ff;
+    padding: 5px 10px;
 }
