@@ -25,7 +25,7 @@ function App() {
 
                         </span>
                         <span id="homeB">
-                            <p><Link to="">Home</Link></p>
+                            <p><Link to="/home">Home</Link></p>
                             <p>Search</p>
                             <p><Link to="/hotels">Hotels</Link></p>
                             <p><Link to="/resturnats">Resturants</Link></p>
