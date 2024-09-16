@@ -44,14 +44,17 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+   padding: 5px;
 }
 
 .menuM .menuI {
     display: flex;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .menuM .menuI #homeB {
     display: flex;
     flex-direction: row;
+    margin-left: 10px;
 }
