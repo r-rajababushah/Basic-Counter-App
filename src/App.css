@@ -10,8 +10,8 @@
 .logoS {
     height: 30px;
     width: 100%;
-    background-color: #efefef;
-    color: red;
+    background-color: blue;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
