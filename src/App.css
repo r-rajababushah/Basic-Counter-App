@@ -51,7 +51,7 @@
     justify-content: center;
 }
 
-.menuM .menuI .homeB {
+.menuM .menuI #homeB {
     display: flex;
     flex-direction: row;
 }
