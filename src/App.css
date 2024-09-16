@@ -41,4 +41,17 @@
 
 .menuM {
    background: #3399ff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menuM .menuI {
+    display: flex;
+    justify-content: center;
+}
+
+.menuM .menuI .homeB {
+    display: flex;
+    flex-direction: row;
 }
